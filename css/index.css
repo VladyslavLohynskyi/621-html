@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html{
+    font-family: 'PT Sans', sans-serif;
+    --main-color: black;
+    
+
+}
+p {
+    color: red;
+}
+.banner {
+    color: var(--main-color);
+}
+
+.slide {
+    border: 1px solid black;
+    padding:20px 25px 30px 40px;
+    margin: 20px;
+}
+header .menu a:nth-child(3){
+    color: yellow;
+}
+header .menu a {
+    
+    text-decoration: none;
+}
+header .menu a:hover{
+    text-decoration: underline;
+}
+header .menu {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+h1, h2, h3, h4{
+    font-family: 'Baloo 2', cursive;
+}
